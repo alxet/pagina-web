@@ -1,0 +1,145 @@
+/* this is a coomment */
+/* reset style */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body¨{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* General style */
+
+.image-container{
+    display: flex;
+}
+
+.image-container img{
+    width:100%;
+}
+
+/* Header style */
+
+header {
+    background: rgb(53, 52, 52); 
+    padding: 10px 50px;
+}
+/* en hexadecimal #1F1F1F */
+#logo {
+    width: 50px;
+}
+
+#logo img{
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+/* Hero styles */
+
+#hero{
+    position: relative;
+}
+
+#hero #background-hero{
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .container-info{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%)
+    left: 0;
+    width: 100%;
+    display: flex;
+    color: white; /*text color */
+    padding: 0px 50 px; 
+}
+
+#hero .container-info #profile-photo{
+    width: 140px;
+}
+
+#hero .container-info #profile-photo img{
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+#hero .container-info .informacion{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#hero .container-info .informacion span{
+    color: green;
+    display: inline-block;
+    margin-bottom: 50px;
+
+}
+
+/* main style */
+
+main{
+    padding: 100px;
+}
+    
+/* social icons style */
+
+main .social-icons{
+
+   
+    display: flex;
+    justify-content: center;
+    
+    list-style: none;
+    margin-top: 50px;
+
+}
+main .social-icons li{
+    margin-left: 10px;
+}
+
+main .social-icons .social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+main .social-icons #twitter{
+    border: 1px solid blue;
+    background: blue;
+    
+}
+main .social-icons #youtube{
+    border: 1px solid red;
+    background: red;
+
+}
+main .social-icons #githhub{
+    border: 1px solid black;
+    background: black;
+}
+main .social-icons #linkedin{
+    border: 1px solid blue;
+    background: blue;
+}
+main .social-icons #platzi{
+    border: 1px solid black ;
+    background: black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(39, 5, 39);
+    padding: 10px 50px;
+    color: white;
+}
